@@ -1,0 +1,15 @@
+#header {
+    font-family: OpenSans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.bold {
+    font-weight: 700;
+}
+

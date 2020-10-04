@@ -1,0 +1,23 @@
+.square-icon-container {
+    /* position: absolute;
+    left: 33.33%;
+    right: 33.8%;
+    top: 0%;
+    bottom: 45.31%; */
+
+    margin: auto;
+    background: linear-gradient(333.23deg, #2A2B8D -16.84%, #2B2F8F -12.31%, #559BD1 119.72%);
+    border-radius: 26px;
+
+    height: 70px;
+    width: 70px;
+    display: flex;
+    
+}
+
+.chameleon {
+    display: block;
+    height: 41px;
+    width: 35px;
+    margin: 20px 13px 15px 16px;
+}
