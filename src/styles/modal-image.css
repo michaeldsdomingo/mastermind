@@ -1,0 +1,69 @@
+.modal-image {
+    height: 62vh;
+    margin-bottom: 33.29px;
+}
+
+#modal-content-container {
+    margin: 25px;
+}
+
+#modal-profile-picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 23px;
+}
+
+#photographer-container {
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+}
+
+#photographer-name {
+    font: 700 30px OpenSans;
+    margin-bottom: 1px !important;
+}
+
+#photographer-username {
+    font: 700 20px OpenSans;
+    color: #2A2B8D;
+    height: 28px;
+    line-height: 27px;
+}
+
+#photographer-download-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#download-button {
+    display: flex;
+    background: #ffffff;
+    border: 2px solid #2A2B8D;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    padding: 0 !important;
+}
+
+#download {
+    font: 700 18px OpenSans;
+    color: #2A2B8D;
+    height: 25px;
+    margin-top: 17px; 
+    margin-left: 27px;
+}
+
+#download-arrow {
+    margin-top: 19px;
+    margin-left: 25px;
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 940px !important;
+    }
+
+}

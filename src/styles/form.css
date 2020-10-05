@@ -1,7 +1,8 @@
 .form-field {
     height: 50px;
-    width: 80%;
-    max-width: 400px;
+    /* width: 100%;
+    max-width: 400px; */
+    width: 400px;
     border-radius: 4px;
     box-sizing: border-box;
     display: block;
@@ -25,8 +26,9 @@ option {
 
 #dropdown-container {
     position: relative; 
-    width: 80%;
-    max-width: 400px;
+    /* width: 100%;
+    max-width: 400px; */
+    width: 400px;
     margin: auto; 
 }
 
@@ -45,8 +47,9 @@ option {
 
 .button {
     height: 50px;
-    width: 80%;
-    max-width: 246px;
+    /* width: 100%;
+    max-width: 246px; */
+    width: 246px;
     border-radius: 25px;
     background-color: #2A2B8D;
     border: none;
