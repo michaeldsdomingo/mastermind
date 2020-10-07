@@ -5,7 +5,7 @@ import PhotoDetails from './PhotoDetails'
 import GMaps from './GMaps'
 import {ImageResponse} from '../types/ImageResponse'
 import '../styles/modal-image.css'
-
+import {checkExif} from '../services/ExifService'
 
 type ModalProps = {
   isModalShow: boolean,
@@ -17,16 +17,8 @@ const ImageInfoModal = ({image, isModalShow, toggleModalShow}: ModalProps) => {
   const [isExif, setIsExif] = useState(false);
 
   useEffect(() => {
-    function checkExif() {
-      let exifExists = true;
-      image.exif && Object.keys(image.exif).forEach((key) => {
-        if (!image.exif[key]) exifExists = false;
-      })
   
-      return exifExists;
-    }
-  
-    setIsExif(checkExif());
+    setIsExif(checkExif(image));
   }, [image])
 
   

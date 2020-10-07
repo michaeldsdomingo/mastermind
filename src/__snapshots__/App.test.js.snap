@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exif renders correctly 1`] = `
+<div
+  className="exif-container"
+>
+  <div
+    className="exif-value purple"
+  >
+    Sony
+  </div>
+  <div
+    className="exif-label"
+  >
+    MAKE
+  </div>
+</div>
+`;
+
+exports[`Photographer renders correctly 1`] = `
+<div
+  id="photographer-download-container"
+>
+  <div
+    id="photographer-container"
+  >
+    <img
+      alt="Photographer's profile of self"
+      id="modal-profile-picture"
+      src="image-medium.com"
+    />
+    <div>
+      <div
+        id="photographer-name"
+      >
+        Abby Tennisen
+      </div>
+      <a
+        href="unsplash.com/abbyandcamera"
+        id="photographer-username"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        @
+        abbyandcamera
+      </a>
+    </div>
+  </div>
+  <a
+    download=""
+    href="downloadURL.com?force=true"
+    id="download-button"
+    rel="nofollow"
+  >
+    <DownloadArrow />
+    <div
+      id="download"
+    >
+      Download
+    </div>
+  </a>
+</div>
+`;
