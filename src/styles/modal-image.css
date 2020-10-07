@@ -35,6 +35,7 @@
 #photographer-download-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 #download-button {
@@ -61,9 +62,47 @@
     margin-left: 25px;
 }
 
+#photo-details-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.exif-value {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.exif-label {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    border: none !important;
+}
+
+
 @media (min-width: 992px) {
     .modal-lg, .modal-xl {
         max-width: 940px !important;
     }
 
 }
+
+@media (max-width: 992px) {
+
+    #photo-details-container {
+        flex-direction: column;
+    }
+
+    #download-button {
+        display: none;
+    }
+
+}
+
+

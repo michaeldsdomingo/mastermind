@@ -1,8 +1,9 @@
 import React from 'react';
+import {ImageResponse} from '../types/ImageResponse'
 
 type ImageProps = {
-    image: any,
-    toggleModalShow: (isModalShow: boolean) => void
+    image: ImageResponse,
+    toggleModalShow: (image: ImageResponse) => void
 }
 
 const Image = ({ image, toggleModalShow } : ImageProps) => {
@@ -12,7 +13,7 @@ const Image = ({ image, toggleModalShow } : ImageProps) => {
 
     return (
         <div>
-            <img src={image.urls.small} alt={image.alt_description} key={image.id} onClick={toggleShow}/>
+            <img src={image?.urls?.small} alt={image.alt_description} key={image.id} onClick={toggleShow}/>
         </div>
     )
     

@@ -1,8 +1,7 @@
 #images-container {
     display: flex;
     justify-content: center;
-    margin: 0 10%;
-    padding-top: 120px;
+    margin: 50px 10% 0 10%;
     z-index: 0;
 
     img {
@@ -11,8 +10,30 @@
     }
 }
 
-.col {
+.column {
     display: flex;
     flex-direction: column;
     margin: 0 10px;
+}
+
+.spinner-border {
+    margin-top: 204px;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+#error-message-container {
+    height: 62px;
+    margin: 30px 10% 0 10%;
+    background-color:rgba(255, 74, 74, .1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+#error-message {
+    color: #FF4A4A;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
 }

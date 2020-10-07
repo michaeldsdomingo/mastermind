@@ -2,10 +2,15 @@ body {
     min-height: 100vh;
     background: #ffffff;
     margin: 0px;
+    font-family: OpenSans;
 }
 
 .background-dark-blue {
     background: #050417;
+}
+
+.purple {
+    color: #2A2B8D;
 }
 
 .d-none {
@@ -15,6 +20,10 @@ body {
 #main-form {
     height: 100vh;
     background: #050417;
+}
+
+#main-container {
+    padding-top: 120px
 }
 
 @font-face {
